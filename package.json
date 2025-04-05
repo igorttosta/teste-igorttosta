@@ -1,0 +1,35 @@
+{
+  "name": "teste-frontend-v4",
+  "version": "1.0.0",
+  "description": "![Aiko](img/aiko.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikodigital/teste-frontend-v4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aikodigital/teste-frontend-v4/issues"
+  },
+  "homepage": "https://github.com/aikodigital/teste-frontend-v4#readme",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "leaflet": "^1.9.4",
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.0",
+    "@types/react": "19.1.0",
+    "typescript": "5.8.2"
+  }
+}
