@@ -1,4 +1,4 @@
-// import "./globals.css";
+import "./global.css";
 import { Orbitron, Edu_NSW_ACT_Foundation } from "next/font/google";
 import type { Metadata } from "next";
 

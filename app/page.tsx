@@ -7,9 +7,8 @@ const EquipmentMap = dynamic(() => import("../components/Map"), {
 
 export default function Home() {
     return (
-        <>
-            <h1>Teste Frontend Aiko 🚀</h1>
+        <div style={{ height: "100vh", position: "relative" }}>
             <EquipmentMap />
-        </>
+        </div>
     );
 }

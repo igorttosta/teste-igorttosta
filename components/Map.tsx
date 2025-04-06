@@ -17,11 +17,20 @@ const EquipmentMap = () => {
     };
 
     return (
-        <div style={{ display: "flex", position: "relative" }}>
+        <div
+            style={{
+                position: "relative",
+                height: "100vh",
+                width: "100vw",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+            }}
+        >
             <MapContainer
                 center={[-19.126536, -45.947756]}
                 zoom={13}
-                style={{ height: "500px", width: "100%" }}
+                style={{ height: "500px", width: "50%" }}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -61,10 +70,12 @@ const EquipmentMap = () => {
             </MapContainer>
 
             {selectedEquipment && (
-                <EquipmentSidebar
-                    equipment={selectedEquipment}
-                    onClose={() => setSelectedEquipment(null)}
-                />
+                <div style={{ position: "absolute", top: 0, right: 0, height: "100%", zIndex: 1000 }}>
+                    <EquipmentSidebar
+                        equipment={selectedEquipment}
+                        onClose={() => setSelectedEquipment(null)}
+                    />
+                </div>
             )}
         </div>
     );
