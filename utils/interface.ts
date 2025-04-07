@@ -1,16 +1,16 @@
-interface Position {
+export interface Position {
     lat: number;
     lon: number;
-    date: string;
+    date: Date | string;
 }
 
-interface StateHistory {
+export interface StateHistory {
     name: string;
     color: string;
-    date: string;
+    date: Date | string;
 }
 
-interface EquipmentType {
+export interface EquipmentType {
     id: string;
     name: string;
     model: string;
@@ -21,9 +21,7 @@ interface EquipmentType {
     stateHistory: StateHistory[];
 }
 
-interface EquipmentSidebarProps {
+export interface EquipmentSidebarProps {
     equipment: EquipmentType;
     onClose: () => void;
 }
-
-export default EquipmentSidebarProps;

@@ -13,8 +13,6 @@ Utilizei o NextJS, TailwindCSS e CSS Inline por ter maior vivencia com essa tecn
 
 ```bash
 npm install
-# ou
-yarn install
 ```
 
 ## 🗂️ Estrutura de pastas
@@ -27,7 +25,20 @@ yarn install
         └── data/
         └── icons/
         └── img/
+  └── tests/
   └── utils/
+```
+
+## ▶️ Inicialização
+
+```bash
+npm run dev
+```
+
+## 🧪 Tests
+
+```bash
+npm run test
 ```
 
 ## 📘 Componentes principais
@@ -44,12 +55,12 @@ yarn install
 - 🕓 **Histórico de posições** exibido ao clicar sobre o equipamento (via Popup). ✅
 - 📄 **Documentação** gerar uma documentação da aplicação (README). ✅
 - 🧰 **Diferenciar os equipamentos** Diferenciar visualmente os equipamentos por modelo de equipamento na visualização do mapa. ✅
-- 🔨 **Percentual de Produtividade do equipamento** 
-- 💵 **Ganho por equipamento**
-- 🧪 **Testes**
-- 🔍 **Filtro por estado** dos equipamentos (Operando, Parado, Manutenção).
-- 🔎 **Busca por nome** do equipamento.
+- 🔨 **Percentual de Produtividade do equipamento** ❌
+- 💵 **Ganho por equipamento** ❌
+- 🧪 **Testes** ✅
+- 🔍 **Filtro por estado** dos equipamentos (Operando, Parado, Manutenção). ✅
+- 🔎 **Busca por nome** do equipamento. ✅
 
 ## 🔗 Link Vídeo
 
-- [Next.js](https://nextjs.org/)
+- [Apresentação](https://drive.google.com/file/d/1vyNrJuWTe-fdbewZDbqXnKUokNhre5zK)
